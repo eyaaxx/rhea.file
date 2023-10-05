@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-S">
+        <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+        <meta name="viewport" contents="width=devices-width, initial-scales=1.0">
+        <title>  My Personal Portfolio</title>
+        
+    </head>
+    <style> 
+    *{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif,Georgia;
+
+
+}
+
+
+.textbox{
+ position: static; 
+ width: 100%;
+ height: 100vh;
+ background-image: url("last.jpg");
+}
+
+nav{
+    display: block;
+    width: 50%;
+    margin-left: 500px;
+    padding: 10px;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: white;
+
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.detail h1{
+    font-size: 70px;
+    font-weight: 600;
+    color:transparent;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px white;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+span{
+    color: orange;
+
+}
+
+.detail p{
+    color: white;
+    line-height: 20px;
+
+}
+
+
+.detail a{
+    background: orange;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+    </style>
+    <body>
+    <div class="textbox">
+        <nav>
+        
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="aboutme.html">ABOUT ME</a></li>
+              <li><a href="projects.html">PROJECTS</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+                </ul>
+            
+        </nav>
+        <div class="detail">
+          <h1> I'm </h1>;
+            <h1> RHEA <span> MAY </span></h1>
+
+
+            <p> This is my official  portfolio website to show all my
+                <br> Details and work experience. 
+            </p>
+            <div class="row"></div>
+            <a href="">Explore My Portfolio &#8594; </a>
+            <a href=""> Connect With Me &#8594; </a>
+
+        </div>
+
+    </div>
+
+    </div>
+</body>
+</html>
